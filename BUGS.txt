@@ -1,0 +1,17 @@
+-BUG1: 
+    ->Message:  "Debug Failure. False expression: Non-string value passed to `ts.resolveTypeReferenceDirective`, likely by
+     a wrapping package working with an outdated... " 
+
+    ->FIX:
+        -run 'npm i --save-dev ts-node-dev@latest' 
+ https://stackoverflow.com/questions/72586253/typescript-debug-failure-false-expression-non-string-value-passed-to-ts-reso
+    ->resolve by installing 
+
+
+
+-BUG2: 
+
+    ->'Cannot find module ... or its corresponding type declarations'
+
+    ->FIX: 
+    https://stackoverflow.com/questions/64732623/typescript-cannot-find-module-or-its-corresponding-type-declarations

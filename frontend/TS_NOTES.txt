@@ -1,0 +1,25 @@
+-Interface vs Type?
+    ->interface is useful for defining simple props that can be extended or
+     reused, while type is useful for defining more complex types in your 
+     props. Ultimately, the choice between type and interface is a matter 
+     of personal preference and the specific needs of your project.
+
+https://levelup.gitconnected.com/mastering-typescript-a-guide-to-choosing-between-type-and-interface-c31d3527693b#:~:text=In%20conclusion%2C%20both%20type%20and%20interface%20can%20be%20used%20to%20define%20props
+
+
+-Pass function as props 
+
+https://soufiane-oucherrou.medium.com/how-pass-function-as-props-to-child-in-react-and-typescript-2fafafa6a945
+https://stackoverflow.com/questions/68895112/how-to-pass-function-as-a-prop-in-react-typescript
+
+
+-When to add React.FC ?
+    ->React.FC when component accepts props  
+    -> SX.Element works when you want to create a component without props.
+
+https://medium.com/@RobertoSilvaZ/when-should-i-use-jsx-element-or-react-fc-29e61eb1e754#:~:text=JSX.Element%20works%20when%20you%20want%20to%20create%20a%20component%20without%20props.
+
+https://stackoverflow.com/questions/59988667/typescript-react-fcprops-confusion
+
+
+-
